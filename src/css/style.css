@@ -49,7 +49,7 @@ section button.talk-btn{
 }
 
 section .hero-illustration{
-    @apply absolute top-0 bottom-0 right-0 overflow-hidden;
+    @apply flex justify-end overflow-hidden;
 }
 section .hero-illustration svg{
     @apply h-screen;

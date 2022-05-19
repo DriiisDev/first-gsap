@@ -452,10 +452,8 @@ section button.talk-btn {
 }
 
 section .hero-illustration {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
+  display: flex;
+  justify-content: flex-end;
   overflow: hidden;
 }
 section .hero-illustration svg {
