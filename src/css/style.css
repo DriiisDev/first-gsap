@@ -1,0 +1,56 @@
+/* tailwindcss directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-sans bg-[#1C073E];
+}
+header{
+    @apply fixed top-0 left-0 right-0 z-[1];
+
+}
+.header-container{
+    @apply mx-20 py-5;
+}
+header .header-direction{
+    @apply flex flex-row justify-between;
+}
+header .logo{
+    @apply text-4xl text-white font-semibold;
+}
+nav ul{
+    @apply flex flex-row space-x-5;
+}
+nav ul li{
+    @apply text-white;
+}
+
+section .hero-content{
+    @apply absolute left-20 top-72 z-[2] max-w-sm space-y-5;
+}
+section .hero-content h1{
+    @apply text-white text-5xl font-medium;
+}
+section .hero-content h1 span{
+    @apply text-yellow-500;
+}
+section .hero-content p{
+    @apply text-white text-base;
+}
+section button{
+    @apply border border-transparent py-2 px-3;
+}
+section button.signup-btn{
+    @apply bg-white text-indigo-800;
+}
+section button.talk-btn{
+    @apply bg-indigo-800 text-white;
+}
+
+section .hero-illustration{
+    @apply absolute top-0 bottom-0 right-0 overflow-hidden;
+}
+section .hero-illustration svg{
+    @apply h-screen;
+}

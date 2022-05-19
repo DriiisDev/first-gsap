@@ -1,0 +1,21 @@
+{
+  "name": "first-gsap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-watch": "npx postcss src/css/style.css -o public/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "gsap": "^3.10.4",
+    "postcss": "^8.4.13",
+    "postcss-cli": "^9.1.0"
+  }
+}
